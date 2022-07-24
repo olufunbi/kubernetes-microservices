@@ -24,7 +24,7 @@ The Kubernetes-Microservices project contains a Machine Learning Microservice, b
 ### Step 2: Install dependencies
 - Set up the environment by running `make setup`. This will create a virtual environment in your home directory called `.devops`
 - Install dependencies by running `make install`
-- Install hadolint if you want to link the Docker file
+- Install hadolint if you want to lint the Docker file
 - (Optionally) Lint application (requires hadolint)
 - Lint the necessary files by running `make lint`
 
